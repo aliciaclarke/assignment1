@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: Georgia, Arial, sans-serif;
+    background-color:#c29
+    
+}
+
+body {
+    margin:0;
+    padding 0;
+}
+
+img{
+    margin:2rem;
+    display:block;
+}
+
+.masthead {
+    background-color:white;
+    overflow:hidden;
+}
+    
+
+.logo {
+    height: 5rem;
+    width:auto;
+    margin:2rem 5%;
+    display:block; 
+    margin: .5rem auto;
+}
+
+.header{
+    height: 16rem;
+    width: auto;
+    margin:0;
+    opacity:;
+    background-color:white;
+    background-image:url(../images/totem.png);
+    background-position:top;
+    background-size:40rem;
+    background-repeat:no-repeat;
+    background-color:#c29
+    
+    
+}
+
+
+h1 {
+    margin:3rem 0;
+    font-weight: normal;
+	font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .25rem 0;
+    text-shadow:.3rem .3rem .05rem rgba(0,0,0, .3);
+    color:black;
+    background-color:rgba(123, 39, 987, .7);
+    
+    
+        
+    
+}
+
+
+
+
+    
+   
+    
+        
+    
+    
+
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
