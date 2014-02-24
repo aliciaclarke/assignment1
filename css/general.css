@@ -20,92 +20,109 @@ html {
     
     font-size: 100%;
     font-family: Georgia, Arial, sans-serif;
-    background-color:#c29
-    
+    background-color:white
 }
 
 body {
     margin:0;
-    padding 0;
+    padding:0;
 }
 
 img{
-    margin:2rem;
+    margin:0;
     display:block;
 }
 
-.masthead {
-    background-color:white;
-    overflow:hidden;
+header{
+    margin:0;
+    background-color:black;
 }
     
 
 .logo {
-    height: 5rem;
+    height: 8rem;
     width:auto;
-    margin:2rem 5%;
     display:block; 
     margin: .5rem auto;
 }
 
-.header{
-    height: 16rem;
-    width: auto;
-    margin:0;
-    opacity:;
-    background-color:white;
-    background-image:url(../images/totem.png);
-    background-position:top;
-    background-size:40rem;
-    background-repeat:no-repeat;
-    background-color:#c29
-    
-    
-}
-
-
 h1 {
-    margin:3rem 0;
-    font-weight: normal;
-	font-size: 5rem;
-    text-align: center;
+    margin:1.5rem 0;
+    overflow: hidden;
+    font-weight: bold;
+	font-size: 3.5rem;
     text-transform: uppercase;
-    padding: .25rem 0;
-    text-shadow:.3rem .3rem .05rem rgba(0,0,0, .3);
+    padding:0;
     color:black;
-    background-color:rgba(123, 39, 987, .7);
-    
-    
-        
-    
+    text-align:center;
+    background-color:rgba(899 ,899 ,34, .4);
+}
+
+h1 span {
+    font-size:2rem;
+}
+
+h2 {
+    margin:1.5rem 1rem;
+    padding:.25rem 0;
+    font-size:1.5rem;
+    color:black;
+    font-weight:bold;
+    text-align:left;
+    text-shadow:.2rem .2rem .05rem rgba(9 ,9 ,9, .3);
+    background-color:rgba(150 ,200 ,5, .8);
+    box-shadow:.2rem .4rem .4rem .2rem rgba(0, 0, 0, .4);
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow:hidden;
+}
+
+p {
+    margin:1rem 1rem;
+}
+
+.head2 {
+    margin:0 1rem;
+    padding:2rem 0;
+    overflow:hidden;
+    background-image:url(../images/totem.png);
+    background-size:26rem;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.para{
+    font-size:1rem;
+    font-weight:bold;
+    border:solid .2rem rgba( 200, 200, 30, .8);
+    text-align:center;
+    line-height:1.7rem;
+}
+
+figure {
+    margin:1rem;
+}
+
+figurecaption{
+    font-size:.7rem;
+    font-weight:bold;
+}
+
+footer{
+    background-color:black;
+    overflow:hidden;
 }
 
 
+footer p{
+    margin: 1rem;
+    color: white;
+    font-size: .8rem;
+}
 
-
-    
-   
-    
-        
-    
-    
-
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+footer a {
+    color:#cf9;
+}
